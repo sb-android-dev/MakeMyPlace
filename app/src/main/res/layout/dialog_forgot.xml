@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="20dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/llForgot"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <!--android:background="@drawable/dialog">-->
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/forget"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etForget"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15sp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:drawableStart="@drawable/ic_mail_outline"
+                    android:drawablePadding="5dp"
+                    android:background="@android:color/white"/>
+
+            </android.support.v7.widget.CardView>
+
+            <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:background="#10154C"-->
+            <!--android:id="@+id/ivCaptcha"-->
+            <!--android:contentDescription="@string/captcha" />-->
+
+            <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="15sp"-->
+            <!--android:paddingStart="5dp"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingEnd="5dp"-->
+            <!--android:id="@+id/etCaptcha"-->
+            <!--android:inputType="textNoSuggestions"-->
+            <!--android:maxLines="1"-->
+            <!--android:imeOptions="actionDone"-->
+            <!--android:hint="@string/captcha"-->
+            <!--android:drawableEnd="@drawable/ic_refresh"-->
+            <!--android:background="@android:color/white"/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnSend"
+                android:text="@string/send_password"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivCancel"
+        android:src="@drawable/ic_cancel"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_alignTop="@id/llForgot"
+        android:layout_alignEnd="@id/llForgot"
+        android:translationZ="2dp"
+        android:contentDescription="@string/cancel"/>
+
+</RelativeLayout>

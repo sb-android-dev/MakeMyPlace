@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Make My Place</string>
+    <string name="favicon">Favicon</string>
+    <string name="email">E-mail</string>
+    <string name="pwd">Password</string>
+    <string name="forget">Forgot Password?</string>
+    <string name="new_user"><u>New to this app? Sign Up</u></string>
+    <string name="fname">Firstname</string>
+    <string name="lname">Lastname</string>
+    <string name="confirmpwd">Confirm Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="pp">Profile Pic</string>
+    <string name="photo">Photos</string>
+    <string name="camera">Camera</string>
+    <string name="colon">:</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="profile">Profile</string>
+    <string name="college">College</string>
+    <string name="hostel">Hostel</string>
+    <string name="foods">Foods</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="captcha">Captcha</string>
+    <string name="send_pwd">Send Password</string>
+    <string name="share">Share</string>
+    <string name="communication">Communication</string>
+    <string name="user">User</string>
+
+    <string-array name="nav_list_item_name">
+        <item>Profile</item>
+        <item>College</item>
+        <item>Hostel</item>
+        <item>Foods</item>
+        <item>Feedback</item>
+        <item>About Us</item>
+    </string-array>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_college">College</string>
+    <string name="title_activity_hostel">Hostel</string>
+    <string name="title_activity_dining">Dining Hall</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="pencil">Pencil</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="image">Image</string>
+    <string name="change_password">Change Password</string>
+    <string name="current">Current Password</string>
+    <string name="new_pwd">New Password</string>
+    <string name="version">Version</string>
+    <string name="developby">Developed By</string>
+    <string name="developat">Developed At</string>
+    <string name="login_with_google">Login with Google+</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="or">OR</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_password">Send Password</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="select_picture_from">Select Picture From</string>
+    <string name="save">Save</string>
+
+    <string name="facebook_app_id">166548824109112</string>
+    <string name="fb_login_protocol_scheme">fb483049945430156</string>
+
+</resources>

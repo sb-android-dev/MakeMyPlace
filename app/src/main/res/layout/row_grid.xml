@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/ivGridImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_grid"
+            android:src="@drawable/ic_man_user"
+            android:contentDescription="@string/image"/>
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:background="#607D8B"-->
+            <!--android:layout_gravity="center"/>-->
+        <TextView
+            android:id="@+id/tvGridText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center|bottom"
+            android:textAlignment="center"
+            android:text="@string/profile"
+            android:textColor="#3a3a3a"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
